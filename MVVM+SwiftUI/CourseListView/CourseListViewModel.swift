@@ -11,7 +11,7 @@ class CourseListViewModel: ObservableObject {
     @Published var courses: [Course] = []
     
     func fecthCourses() {
-        NetworkManager.shared.fetchData { courses in
+        NetworkManager.shared.fetchCourses { courses in
             self.courses = courses
         }
     }

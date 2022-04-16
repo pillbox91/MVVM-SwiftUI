@@ -19,6 +19,7 @@
 		32442C062809A11B008BD26C /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32442C052809A11B008BD26C /* NetworkManager.swift */; };
 		32442C082809A123008BD26C /* DataManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32442C072809A123008BD26C /* DataManger.swift */; };
 		32442C0A2809A16A008BD26C /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32442C092809A16A008BD26C /* Course.swift */; };
+		32442C0D280ACCBD008BD26C /* CourseImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32442C0C280ACCBD008BD26C /* CourseImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		32442C052809A11B008BD26C /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		32442C072809A123008BD26C /* DataManger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManger.swift; sourceTree = "<group>"; };
 		32442C092809A16A008BD26C /* Course.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
+		32442C0C280ACCBD008BD26C /* CourseImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 			children = (
 				32442BFD2809A062008BD26C /* CourseDetailsViewModel.swift */,
 				32442BFF2809A07C008BD26C /* CourseDetailsView.swift */,
+				32442C0C280ACCBD008BD26C /* CourseImageView.swift */,
 			);
 			path = CourseDetails;
 			sourceTree = "<group>";
@@ -200,6 +203,7 @@
 				32442C082809A123008BD26C /* DataManger.swift in Sources */,
 				32442BF82809A011008BD26C /* CourseListViewModel.swift in Sources */,
 				32442BFE2809A062008BD26C /* CourseDetailsViewModel.swift in Sources */,
+				32442C0D280ACCBD008BD26C /* CourseImageView.swift in Sources */,
 				32442C002809A07C008BD26C /* CourseDetailsView.swift in Sources */,
 				32442BE628099F21008BD26C /* MVVM_SwiftUIApp.swift in Sources */,
 				32442BFC2809A03D008BD26C /* RowViewModel.swift in Sources */,
