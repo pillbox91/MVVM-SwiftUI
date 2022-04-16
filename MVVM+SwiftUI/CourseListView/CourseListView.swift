@@ -8,13 +8,19 @@
 import SwiftUI
 
 struct CourseListView: View {
+    @StateObject private var viewModel = CourseListViewModel()
+    
     var body: some View {
         NavigationView {
             ScrollView{
-                
+                ForEach(viewModel.courses, id: \.name) { course in
+                    Text(course.name)
+                }
             }
             .navigationTitle("Course")
-            .navigationBarItems(trailing: Button("Fetch Data") { })
+            .navigationBarItems(trailing: Button("Fetch Data") {
+                viewModel.fecthCourses()
+            })
         }
     }
 }

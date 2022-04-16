@@ -6,3 +6,13 @@
 //
 
 import Foundation
+
+class CourseListViewModel: ObservableObject {
+    @Published var courses: [Course] = []
+    
+    func fecthCourses() {
+        NetworkManager.shared.fetchData { courses in
+            self.courses = courses
+        }
+    }
+}

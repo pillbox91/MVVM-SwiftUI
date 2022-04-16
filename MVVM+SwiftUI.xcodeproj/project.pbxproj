@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		32442BE628099F21008BD26C /* MVVM_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32442BE528099F21008BD26C /* MVVM_SwiftUIApp.swift */; };
-		32442BE828099F21008BD26C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32442BE728099F21008BD26C /* ContentView.swift */; };
 		32442BEA28099F25008BD26C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32442BE928099F25008BD26C /* Assets.xcassets */; };
 		32442BED28099F25008BD26C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32442BEC28099F25008BD26C /* Preview Assets.xcassets */; };
 		32442BF628099F80008BD26C /* CourseListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32442BF528099F80008BD26C /* CourseListView.swift */; };
@@ -25,7 +24,6 @@
 /* Begin PBXFileReference section */
 		32442BE228099F21008BD26C /* MVVM+SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MVVM+SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		32442BE528099F21008BD26C /* MVVM_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVM_SwiftUIApp.swift; sourceTree = "<group>"; };
-		32442BE728099F21008BD26C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		32442BE928099F25008BD26C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		32442BEC28099F25008BD26C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		32442BF528099F80008BD26C /* CourseListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseListView.swift; sourceTree = "<group>"; };
@@ -70,7 +68,6 @@
 			isa = PBXGroup;
 			children = (
 				32442BE528099F21008BD26C /* MVVM_SwiftUIApp.swift */,
-				32442BE728099F21008BD26C /* ContentView.swift */,
 				32442C012809A092008BD26C /* CourseListView */,
 				32442C022809A0AA008BD26C /* CourseDetails */,
 				32442C032809A0CF008BD26C /* Services */,
@@ -204,7 +201,6 @@
 				32442BF82809A011008BD26C /* CourseListViewModel.swift in Sources */,
 				32442BFE2809A062008BD26C /* CourseDetailsViewModel.swift in Sources */,
 				32442C002809A07C008BD26C /* CourseDetailsView.swift in Sources */,
-				32442BE828099F21008BD26C /* ContentView.swift in Sources */,
 				32442BE628099F21008BD26C /* MVVM_SwiftUIApp.swift in Sources */,
 				32442BFC2809A03D008BD26C /* RowViewModel.swift in Sources */,
 			);
