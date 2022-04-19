@@ -7,10 +7,15 @@
 
 import Foundation
 
-class CourseListViewModel: ObservableObject {
+protocol CourseListViewModelProtocol {
+    var courses: [Course] {get}
+    func fetchCourses()
+}
+
+class CourseListViewModel: CourseListViewModelProtocol, ObservableObject {
     @Published var courses: [Course] = []
     
-    func fecthCourses() {
+    func fetchCourses() {
         NetworkManager.shared.fetchCourses { courses in
             self.courses = courses
         }
